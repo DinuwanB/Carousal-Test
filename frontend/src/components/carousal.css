@@ -1,0 +1,38 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+  
+  .top-left {
+    position: absolute;
+    top: 45%;
+    left: 50px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 45%;
+    right: 50px;
+  }
+
+  .centered {
+    font-size: 4rem;
+    font-weight: 600;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered-2 {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
